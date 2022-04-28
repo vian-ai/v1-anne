@@ -1,10 +1,38 @@
-/*@media(max-width:768px) {
-    .select-menu {
-        display: block;
+@media (max-width: 768px) {
+    .header {
+        position: absolute;
+    }
+
+    .myName {
+        text-align: center;
+        padding: 100px;
+    }
+
+    h1 {
+        font-size: 70px;
+        padding: 10px;
+    }
+
+    .myName h3 {
+        font-size: 22px;
+    }
+
+    .myName h2 {
+        font-size: 35px;
     }
 
     .nav-menu {
-        position: fixed;
         display: none;
     }
-}*/
+
+    .menu-btn {
+        display: flex;
+    }
+
+    .button {
+        font-size: 18px;
+        font-weight: bold;
+        height: 50px;
+        width: 150px;
+    }
+}
