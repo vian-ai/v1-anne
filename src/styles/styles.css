@@ -126,6 +126,16 @@
     color: rgba(255, 255, 255, 0.699);
 }
 
+.aboutMe h2::after {
+    content: "";
+    display: inline-block;
+    width: 300px;
+    height: 2px;
+    margin: 12px;
+    background: #b10a0a;
+    position: relative;
+}
+
 .aboutMe p {
     color: rgba(255, 255, 255, 0.466);
     padding-top: 20px;
@@ -161,6 +171,16 @@
     padding-top: 200px;
 }
 
+.contactMe h2::after {
+    content: "";
+    display: inline-block;
+    width: 300px;
+    height: 2px;
+    margin: 12px;
+    background: #b10a0a;
+    position: relative;
+}
+
 .contactMe p {
     color: rgba(255, 255, 255, 0.466);
     padding-top: 20px;
@@ -194,8 +214,14 @@ footer {
 .fa {
     color: #b10a0a;
     cursor: pointer;
+    padding: 7px;
 }
 
 .fa:hover {
     color: #e81717;
+}
+
+.colorIn {
+    color: #b10a0a;
+    font-weight: 500;
 }

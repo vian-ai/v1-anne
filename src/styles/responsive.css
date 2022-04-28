@@ -56,9 +56,23 @@
         margin: 20px;
     }
 
+    .contactMe h2::after {
+        content: "";
+        display: inline-block;
+        width: 100px;
+        height: 2px;
+        margin: 12px;
+        background: #b10a0a;
+        position: relative;
+    }
+
     footer {
         margin-top: 100px;
         text-align: center;
         font-size: 35px;
+    }
+
+    .fa {
+        padding: 7px;
     }
 }
