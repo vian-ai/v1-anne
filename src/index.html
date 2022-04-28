@@ -7,31 +7,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- FONTAWESOME ICONS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
     <!-- MAIN AND GRID SPECIFIC CSS-->
     <link rel="stylesheet" href="styles/styles.css" type="text/css" media="all" />
     <!-- RESPONSIVE CSS -->
     <link rel="stylesheet" href="styles/responsive.css" type="text/css" media="all" />
+    <link rel="icon" href="imgs/vi_logo_a.png">
     <title>Vianney</title>
 </head>
 
 <body>
     <header>
         <!-- LANDING PAGE -->
-        <div class="homePage" id="stripe-1">
+        <div class="homePage">
+            <div class="nav-logo">
+                <img class="logo" src="imgs/vi_logo_a.png">
+            </div>
             <nav>
-                <div class="nav-logo">
-                    <img class="logo" src="imgs/vi_logo_a.png">
-                </div>
                 <ul class="nav-menu">
                     <li><a href="#">/home</a></li>
                     <li><a href="#">/about</a></li>
                     <li><a href="#">/projects</a></li>
                     <li><a href="#">/contact</a></li>
                 </ul>
-                <div class="ham-menu"></div>
             </nav>
-
+            <div class="ham-menu">
+                <span class="menu" id="one"></span>
+                <span class="menu" id="two"></span>
+                <span class="menu" id="three"></span>
+            </div>
             <div class="myName">
                 <h3>Hi, i'm</h3>
                 <h1>Vianney</h1>
@@ -62,7 +68,6 @@
         <!--<div class="myProjects">
             <div class="projectSection">
                 <h2>Projects</h2>
-
                 <div class="tab-1">
                     <i class="fa-solid fa-folder"></i>
                     <h3>Project 1</h3>

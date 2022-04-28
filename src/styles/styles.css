@@ -2,46 +2,57 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    background-color: #181718;
+    font-family: 'Open Sans', sans-serif;
 }
 
-.homePage {
+header {
     height: 100vh;
     width: 100%;
-    background-color: #181718;
 }
 
-nav {
+.homePage nav {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-right: 6%;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
-li {
+.homePage li {
     display: inline-block;
     list-style: none;
+    margin: 40px 20px;
 }
 
-ul li a {
+.homePage a {
     text-decoration: none;
-    padding: 10px;
     color: #b10a0a;
     font-family: 'JetBrains Mono', monospace;
+    font-size: 18px;
 }
 
-li a:hover {
+.homePage a:hover {
     color: #e81717;
+    transition: .6s;
 }
 
-h1 {
-    font-size: 50px;
+.logo {
+    float: left;
+    position: absolute;
+    margin: 30px 40px;
+    width: 50px;
+    height: 50px;
+}
+
+.myName {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+
+.myName h1 {
+    font-size: 100px;
     font-family: 'Open Sans', sans-serif;
     color: rgba(255, 255, 255, 0.699);
-}
-
-.myName h3 {
-    color: #b10a0a;
-    font-family: 'Roboto Mono', monospace;
 }
 
 .myName h2 {
@@ -49,56 +60,50 @@ h1 {
     opacity: 60%;
     font-family: 'Open Sans', sans-serif;
     padding-bottom: 50px;
+    font-size: 50px;
+}
+
+.myName h3 {
+    color: #b10a0a;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
 }
 
 .button {
     color: #b10a0a;
     cursor: pointer;
-    border: 2px solid #b10a0a;
+    border: 3px solid #b10a0a;
     background-color: transparent;
     border-radius: 5px;
     font-family: 'Roboto Mono', monospace;
     height: 50px;
-    width: 100px;
+    width: 150px;
+    font-size: 20px;
 }
 
 .button:hover {
     background-color: #e817170c;
-}
-
-.logo {
-    margin: 30px;
-    width: 50px;
-    height: 50px;
+    color: white;
 }
 
 .ham-menu {
-    position: relative;
-    width: 30px;
-    height: 4px;
-    background-color: #b10a0a;
-    border-radius: 1px;
+    display: none;
     cursor: pointer;
-    z-index: 2;
-    transition: 0.3s;
+    float: right;
+    margin: 40px 40px;
 }
 
-.ham-menu::before, .ham-menu::after {
-    content: "";
-    position: absolute;
-    height: 4px;
-    right: 0;
+.menu {
+    display: block;
+    margin: 8px auto;
+    width: 40px;
+    height: 3px;
     background-color: #b10a0a;
     border-radius: 1px;
-    transition: 0.3s;
 }
 
-.ham-menu::before {
-    top: -10px;
-    width: 40px;
-}
-
-.ham-menu::after {
-    top: 10px;
+#two {
+    margin: 8px auto;
     width: 25px;
+    height: 3px;
 }
