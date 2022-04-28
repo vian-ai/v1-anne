@@ -6,10 +6,18 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-header {
+::-webkit-scrollbar {
+    background: rgba(255, 255, 255, 0);
+}
+
+.homePage {
     height: 100vh;
     width: 100%;
 }
+
+/*nav ul {
+    position: fixed;
+}*/
 
 .homePage nav {
     display: flex;
@@ -45,7 +53,7 @@ header {
 
 .myName {
     position: absolute;
-    top: 20%;
+    top: 30%;
     left: 10%;
 }
 
@@ -106,4 +114,38 @@ header {
     margin: 8px auto;
     width: 25px;
     height: 3px;
+}
+
+.aboutMe {
+    margin: 80px;
+}
+
+.aboutMe h2 {
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(255, 255, 255, 0.699);
+}
+
+.aboutMe p {
+    color: rgba(255, 255, 255, 0.466);
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.aboutMe h4 {
+    font-size: 20px;
+    font-weight: normal;
+    color: rgba(255, 255, 255, 0.466);
+}
+
+.aboutMe ul {
+    display: block;
+    color: rgba(255, 255, 255, 0.466);
+    padding-top: 10px;
+    padding-left: 40px;
+}
+
+#slash {
+    color: #b10a0a;
 }
