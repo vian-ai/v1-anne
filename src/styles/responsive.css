@@ -40,9 +40,9 @@
     }
 
     .aboutMe p {
-        display: flex;
-        margin: 20px;
-        padding: 0;
+        display: block;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 
     .contactMe {
@@ -74,5 +74,19 @@
 
     .fa {
         padding: 7px;
+    }
+
+    .myProjects {
+        align-items: center;
+    }
+
+    .myProjects h2::after {
+        content: "";
+        display: inline-block;
+        width: 100px;
+        height: 2px;
+        margin: 12px;
+        background: #b10a0a;
+        position: relative;
     }
 }

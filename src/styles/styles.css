@@ -225,3 +225,24 @@ footer {
     color: #b10a0a;
     font-weight: 500;
 }
+
+.myProjects {
+    margin: 80px;
+}
+
+.myProjects h2 {
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(255, 255, 255, 0.699);
+    padding-top: 200px;
+}
+
+.myProjects h2::after {
+    content: "";
+    display: inline-block;
+    width: 300px;
+    height: 2px;
+    margin: 12px;
+    background: #b10a0a;
+    position: relative;
+}
