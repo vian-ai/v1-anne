@@ -246,3 +246,13 @@ footer {
     background: #b10a0a;
     position: relative;
 }
+
+.cards h3 {
+    color: rgb(212, 212, 212);
+    font-size: 20px;
+}
+
+.cards p {
+    color: rgba(255, 255, 255, 0.466);
+    font-size: 15px;
+}
