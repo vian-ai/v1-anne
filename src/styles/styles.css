@@ -184,3 +184,18 @@
     background-color: #e817170c;
     color: white;
 }
+
+footer {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.fa {
+    color: #b10a0a;
+    cursor: pointer;
+}
+
+.fa:hover {
+    color: #e81717;
+}

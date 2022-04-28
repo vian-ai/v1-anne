@@ -55,4 +55,10 @@
         display: flex;
         margin: 20px;
     }
+
+    footer {
+        margin-top: 100px;
+        text-align: center;
+        font-size: 35px;
+    }
 }
