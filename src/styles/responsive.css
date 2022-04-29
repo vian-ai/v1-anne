@@ -1,18 +1,40 @@
 @media (max-width: 768px) {
-    .header {
-        position: absolute;
-    }
-
-    .homePage nav {
-        display: none;
-    }
-
-    .myName {
-        text-align: center;
-    }
 
     .ham-menu {
         display: block;
+    }
+    
+    .ham-menu.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+    
+    .ham-menu.active .bar:nth-child(1) {
+        transform: translateY(11px) rotate(45deg);
+    }
+    
+    .ham-menu.active .bar:nth-child(3) {
+        transform: translateY(-11px) rotate(-45deg);
+    }
+    
+    .nav-menu {
+        position: fixed;
+        left: 100%;
+        top: 70px;
+        gap: 0;
+        flex-direction: column;
+        background-color: #2e2e2e;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+        z-index: 1;
+    }
+    
+    .nav-item {
+        margin: 16px 0;
+    }
+    
+    .nav-menu.active {
+        left: 0;
     }
 
     .aboutMe {

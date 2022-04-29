@@ -13,3 +13,8 @@ $('#github').click(function () {
 $('#linkedIn').click(function () {
     window.open('https://www.linkedin.com/in/annelee22/');
 });
+
+$('.ham-menu').click(function () {
+    $('.ham-menu').toggleClass("active");
+    $('.nav-menu').toggleClass("active");
+});

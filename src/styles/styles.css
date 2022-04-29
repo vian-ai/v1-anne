@@ -2,7 +2,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: #181718;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -10,43 +9,67 @@
     background: rgba(255, 255, 255, 0);
 }
 
-.homePage {
-    height: 100vh;
-    width: 100%;
+body {
+    background-color: #262626;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
-/*nav ul {
-    position: fixed;
-}*/
-
-.homePage nav {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+header {
+    background-color: #262626;
 }
 
 .homePage li {
-    display: inline-block;
     list-style: none;
-    margin: 40px 20px;
 }
 
 .homePage a {
-    text-decoration: none;
     color: #b10a0a;
+    text-decoration: none;
     font-family: 'JetBrains Mono', monospace;
     font-size: 18px;
 }
 
-.homePage a:hover {
+.nav-bar {
+    display: flex;
+    min-height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.nav-link:hover {
     color: #e81717;
-    transition: .6s;
+}
+
+.ham-menu {
+    display: none;
+    cursor: pointer;
+}
+
+.ham-menu {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    margin: 8px auto;
+    width: 40px;
+    height: 3px;
+    background-color: #b10a0a;
+    border-radius: 1px;
 }
 
 .logo {
-    float: left;
-    position: absolute;
-    margin: 30px 40px;
     width: 50px;
     height: 50px;
 }
@@ -94,30 +117,9 @@
     color: white;
 }
 
-.ham-menu {
-    display: none;
-    cursor: pointer;
-    float: right;
-    margin: 40px 40px;
-}
-
-.menu {
-    display: block;
-    margin: 8px auto;
-    width: 40px;
-    height: 3px;
-    background-color: #b10a0a;
-    border-radius: 1px;
-}
-
-#two {
-    margin: 8px auto;
-    width: 25px;
-    height: 3px;
-}
-
 .aboutMe {
     margin: 80px;
+    padding-top: 750px; 
 }
 
 .aboutMe h2 {
@@ -255,4 +257,13 @@ footer {
 .cards p {
     color: rgba(255, 255, 255, 0.466);
     font-size: 15px;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
 }
