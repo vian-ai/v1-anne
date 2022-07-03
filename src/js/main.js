@@ -3,7 +3,7 @@ $('#emailMe').click(function() {
 });
 
 $('#emailAnne').click(function() {
-    $(location).attr('href', 'mailto:annelee3322@gmail.com')
+    $(location).attr('href', 'mailto:vianne.leee@gmail.com')
 });
 
 $('#github').click(function () {
