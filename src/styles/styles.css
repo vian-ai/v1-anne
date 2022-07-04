@@ -289,3 +289,78 @@ body {
 .social-icons .fa:hover {
   color: #e81717;
 }
+
+.container {
+    padding-left: 10%;
+    padding-right: 25%;
+}
+
+.flex {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
+    grid-gap: 15px;
+    margin-top: 60px;
+}
+
+.card {
+    background-color: #353535;
+    border-radius: 5px;
+    height: 100%;
+    padding: 1.5rem 0 !important;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.288);
+    transition: all 0.35s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+}
+
+.card h1 {
+    color: #effaff;
+    font-size: 25px;
+    font-family: "Roboto", sans-serif;
+    padding: 10px 20px;
+}
+
+.card p {
+    padding: 10px 20px;
+    margin-bottom: 25px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #effaffb6;
+}
+
+.card-icons {
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: none !important;
+}
+
+.fa {
+    transition: all 0.35s ease-in-out;
+    cursor: pointer;
+}
+
+.fa-folder {
+    font-size: 40px;
+    color: #b10a0a;
+}
+
+.fa-brands {
+    font-size: 35px;
+    color: #b10a0a;
+    margin-right: 10px;
+}
+
+.fa-external-link {
+    font-size: 30px;
+    color: #b10a0a;
+}
+
+.fa:hover {
+    color: #e81717;
+}
