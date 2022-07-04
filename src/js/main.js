@@ -65,3 +65,18 @@ function reveal() {
     }
 }
 window.addEventListener("scroll", reveal);
+
+function onScroll() {
+    let prevScroll = window.pageYOffset;
+    window.onscroll = function () {
+        let currentScroll = window.pageYOffset;
+        if (prevScroll > currentScroll) {
+            document.getElementById("nav-bar").style.top = "0";
+        } else {
+            document.getElementById("nav-bar").style.top = "-80px";
+        }
+        prevScroll = currentScroll;
+    }
+}
+
+onScroll();
