@@ -103,7 +103,7 @@ body {
   font-size: 14px;
   border-radius: 5px;
   color: white;
-  height: 40px;
+  height: 45px;
   width: 120px;
   margin-left: 5px;
   cursor: pointer;
@@ -224,15 +224,15 @@ body {
   font-size: 14px;
   border-radius: 5px;
   color: white;
-  height: 40px;
-  width: 120px;
+  height: 50px;
+  width: 130px;
   margin-left: 5px;
   cursor: pointer;
   font-family: "IBM Plex Mono", monospace;
   transition: all 0.35s ease-in-out;
 }
 
-.emailMe:hover {
+.contact-email:hover {
   background-color: #b10a0a2f;
 }
 
