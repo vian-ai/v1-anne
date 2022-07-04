@@ -1,20 +1,50 @@
-$('#emailMe').click(function() {
-    $(location).attr('href', 'mailto:annelee3322@gmail.com')
-});
+function hyperLinks() {
+    $('#emailMe').click(function () {
+        $(location).attr('href', 'mailto:annelee3322@gmail.com')
+    });
 
-$('#emailAnne').click(function() {
-    $(location).attr('href', 'mailto:vianne.leee@gmail.com')
-});
+    $('#email-icon').click(function () {
+        $(location).attr('href', 'mailto:vianne.leee@gmail.com')
+    });
 
-$('#github').click(function () {
-    window.open('https://github.com/vian-ai');
-});
+    $('#github-icon').click(function () {
+        window.open('https://github.com/vian-ai');
+    });
 
-$('#linkedIn').click(function () {
-    window.open('https://www.linkedin.com/in/vianneyledesma/');
-});
+    $('#github-p1').click(function () {
+        window.open('');
+    });
 
-$('.ham-menu').click(function () {
-    $('.ham-menu').toggleClass("active");
-    $('.nav-menu').toggleClass("active");
-});
+    $('#github-p2').click(function () {
+        window.open('');
+    });
+
+    $('#github-p3').click(function () {
+        window.open('');
+    });
+
+    $('#p1-link').click(function () {
+        window.open('');
+    });
+
+    $('#p2-link').click(function () {
+        window.open('');
+    });
+
+    $('#p3-link').click(function () {
+        window.open('');
+    });
+
+    $('#linkedIn-icon').click(function () {
+        window.open('https://www.linkedin.com/in/vianneyledesma/');
+    });
+}
+hyperLinks();
+
+function hamMenu() {
+    $('.ham-menu').click(function () {
+        $('.ham-menu').toggleClass("active");
+        $('.nav-menu').toggleClass("active");
+    });
+}
+hamMenu();
