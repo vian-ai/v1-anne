@@ -78,115 +78,34 @@
   .nav-container input[type="checkbox"]:checked ~ .logo {
     display: none;
   }
-  /* .ham-menu {
-        display: block;
-    }
-    
-    .ham-menu.active .bar:nth-child(2) {
-        opacity: 0;
-    }
-    
-    .ham-menu.active .bar:nth-child(1) {
-        transform: translateY(11px) rotate(45deg);
-    }
-    
-    .ham-menu.active .bar:nth-child(3) {
-        transform: translateY(-11px) rotate(-45deg);
-    }
-    
-    .nav-menu {
-        position: fixed;
-        left: 100%;
-        top: 70px;
-        gap: 0;
-        flex-direction: column;
-        background-color: #2e2e2e;
-        width: 100%;
-        text-align: center;
-        transition: 0.3s;
-        z-index: 1;
-    }
-    
-    .nav-item {
-        margin: 16px 0;
-    }
-    
-    .nav-menu.active {
-        left: 0;
-    }
 
-    .aboutMe {
-        margin: 0;
-    }
+  .myName {
+    padding-left: 15%;
+    padding-right: unset;
+    padding-top: 20%;
+  }
 
-    .aboutMe h2, p, h4 {
-        text-align: center;
-    }
+  .aboutMe {
+    padding-left: 15%;
+    padding-right: unset;
+    padding-top: 20%;
+  }
 
-    .aboutMe h2::after {
-        content: "";
-        display: inline-block;
-        width: 100px;
-        height: 2px;
-        margin: 12px;
-        background: #b10a0a;
-        position: relative;
-    }
+  .myProjects {
+    padding-left: 15%;
+    padding-right: unset;
+    padding-top: 20%;
+  }
 
-    .aboutMe ul {
-        font-size: 16px;
-        margin: 10px 220px;
-        padding-left: 0;
-    }
+  .contactMe {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 10%;
+    margin: 50px;
+  }
 
-    .aboutMe p {
-        display: block;
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-
-    .contactMe {
-        text-align: center;
-        margin: 0;
-        padding: 0;
-    }
-
-    .contactMe p {
-        display: flex;
-        margin: 20px;
-    }
-
-    .contactMe h2::after {
-        content: "";
-        display: inline-block;
-        width: 100px;
-        height: 2px;
-        margin: 12px;
-        background: #b10a0a;
-        position: relative;
-    }
-
-    footer {
-        margin-top: 100px;
-        text-align: center;
-        font-size: 35px;
-    }
-
-    .fa {
-        padding: 7px;
-    }
-
-    .myProjects {
-        align-items: center;
-    }
-
-    .myProjects h2::after {
-        content: "";
-        display: inline-block;
-        width: 100px;
-        height: 2px;
-        margin: 12px;
-        background: #b10a0a;
-        position: relative;
-    } */
+  .flex {
+      grid-template-columns: repeat(2, minmax(250px, 1fr));
+  }
 }
