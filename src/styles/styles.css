@@ -6,6 +6,7 @@
 
 body {
   background-color: #262626;
+  --article-load-delay: calc(500ms + 300ms);
 }
 
 .nav-bar {
@@ -25,6 +26,12 @@ body {
 .logo {
   margin-left: 2rem;
   width: 55px;
+  transform: scale(0);
+  animation-name: nav-links;
+  animation-duration: 400ms;
+  animation-timing-function: ease-in;
+  animation-delay: 300ms;
+  animation-fill-mode: forwards;
 }
 
 .nav-menu {
@@ -44,6 +51,12 @@ body {
   padding: 10px;
   margin: 0 1rem;
   transition: all 0.35s ease-in-out;
+  transform: scale(0);
+  animation-name: nav-links;
+  animation-duration: 500ms;
+  animation-timing-function: ease-in;
+  animation-delay: 300ms;
+  animation-fill-mode: forwards;
 }
 
 .nav-link:hover {
@@ -62,6 +75,12 @@ body {
   cursor: pointer;
   font-family: "IBM Plex Mono", monospace;
   transition: all 0.35s ease-in-out;
+  transform: scale(0);
+  animation-name: nav-links;
+  animation-duration: 500ms;
+  animation-timing-function: ease-in;
+  animation-delay: 300ms;
+  animation-fill-mode: forwards;
 }
 
 .nav-button:hover {
@@ -78,12 +97,20 @@ body {
   font-size: 20px;
   color: #b10a0a;
   font-family: "IBM Plex Mono", monospace;
+  animation: article-load 300ms ease-in var(--article-load-delay);
+  animation-fill-mode: forwards;
+  transform: translateY(-20px);
+  opacity: 0;
 }
 
 .myName h2 {
   font-size: 100px;
   color: white;
   font-family: "Roboto", sans-serif;
+  animation: article-load 300ms ease-in calc(var(--article-load-delay) + 200ms);
+  animation-fill-mode: forwards;
+  transform: translateY(-20px);
+  opacity: 0;
 }
 
 .myName h3 {
@@ -91,6 +118,10 @@ body {
   color: rgba(255, 255, 255, 0.616);
   margin-bottom: 25px;
   font-family: "Roboto", sans-serif;
+  animation: article-load 300ms ease-in calc(var(--article-load-delay) + 300ms);
+  animation-fill-mode: forwards;
+  transform: translateY(-20px);
+  opacity: 0;
 }
 
 .myName p {
@@ -102,6 +133,10 @@ body {
   color: rgba(255, 255, 255, 0.616);
   font-family: "Roboto", sans-serif;
   font-weight: 400;
+  animation: article-load 300ms ease-in calc(var(--article-load-delay) + 400ms);
+  animation-fill-mode: forwards;
+  transform: translateY(-20px);
+  opacity: 0;
 }
 
 .greet-btn {
@@ -116,6 +151,10 @@ body {
   cursor: pointer;
   font-family: "IBM Plex Mono", monospace;
   transition: all 0.35s ease-in-out;
+  animation: article-load 300ms ease-in calc(var(--article-load-delay) + 500ms);
+  animation-fill-mode: forwards;
+  transform: translateY(-20px);
+  opacity: 0;
 }
 
 .greet-btn:hover {
@@ -400,6 +439,29 @@ body {
   }
   100% {
     transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes nav-links {
+  0% {
+    transform: scale(0);
+  }
+  90% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes article-load {
+  0% {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
     opacity: 1;
   }
 }
