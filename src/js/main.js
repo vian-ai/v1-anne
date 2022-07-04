@@ -7,11 +7,11 @@ $('#emailAnne').click(function() {
 });
 
 $('#github').click(function () {
-    window.open('https://github.com/dntcarelol');
+    window.open('https://github.com/vian-ai');
 });
 
 $('#linkedIn').click(function () {
-    window.open('https://www.linkedin.com/in/annelee22/');
+    window.open('https://www.linkedin.com/in/vianneyledesma/');
 });
 
 $('.ham-menu').click(function () {

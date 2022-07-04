@@ -1,240 +1,273 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: #262626;
+  background-color: #262626;
 }
 
 .nav-bar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #262626;
-    height: 80px;
-    padding: 22px;
-    width: 100%;
-    position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: purple;
+  height: 80px;
+  padding: 22px;
+  width: 100%;
+  position: fixed;
+  z-index: 2;
 }
 
 .logo {
-    margin-left: 2rem;
-    width: 55px;
+  margin-left: 2rem;
+  width: 55px;
 }
 
 .nav-menu {
-    display: flex;
-    margin: 25px;
-    list-style-type: none;
-    margin-right: 2rem;
+  display: flex;
+  margin: 25px;
+  list-style-type: none;
+  margin-right: 2rem;
 }
 
 .nav-link {
-    display: flex;
-    font-size: 14px;
-    text-decoration: none;
-    font-weight: 600;
-    font-family: 'IBM Plex Mono', monospace;
-    color: #b10a0a;
-    padding: 10px;
-    margin: 0 1rem;
-    transition: all 0.35s ease-in-out;
+  display: flex;
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: 600;
+  font-family: "IBM Plex Mono", monospace;
+  color: #b10a0a;
+  padding: 10px;
+  margin: 0 1rem;
+  transition: all 0.35s ease-in-out;
 }
 
 .nav-link:hover {
-    color: #e81717;
+  color: #e81717;
 }
 
 .nav-button {
-    background-color: transparent;
-    border: 1px solid #b10a0a;
-    font-size: 14px;
-    border-radius: 5px;
-    color: white;
-    height: 40px;
-    width: 90px;
-    margin-left: 5px;
-    cursor: pointer;
-    font-family: 'IBM Plex Mono', monospace;
-    transition: all 0.35s ease-in-out;
+  background-color: transparent;
+  border: 1px solid #b10a0a;
+  font-size: 14px;
+  border-radius: 5px;
+  color: white;
+  height: 40px;
+  width: 90px;
+  margin-left: 5px;
+  cursor: pointer;
+  font-family: "IBM Plex Mono", monospace;
+  transition: all 0.35s ease-in-out;
 }
 
 .nav-button:hover {
-    background-color: #b10a0a2f;
+  background-color: #b10a0a2f;
 }
 
 .myName {
-    padding-top: 200px;
-    margin-left: 150px;
+  padding-left: 15%;
+  padding-right: 25%;
+  padding-top: 10%;
 }
 
 .myName h1 {
-    font-size: 20px;
-    color: #b10a0a;
+  font-size: 20px;
+  color: #b10a0a;
 }
 
 .myName h2 {
-    font-size: 100px;
-    color: white;
+  font-size: 100px;
+  color: white;
 }
 
 .myName h3 {
-    font-size: 50px;
-    color: rgba(255, 255, 255, 0.616);
-    margin-bottom: 25px;
+  font-size: 50px;
+  color: rgba(255, 255, 255, 0.616);
+  margin-bottom: 25px;
 }
 
 .myName p {
-    max-width: 460px;
-    margin-bottom: 25px;
-    font-size: 18px;
-    color: rgba(255, 255, 255, 0.616);
+  max-width: 460px;
+  margin-bottom: 25px;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.616);
 }
 
 .greet-btn {
-    background-color: transparent;
-    border: 1px solid #b10a0a;
-    font-size: 14px;
-    border-radius: 5px;
-    color: white;
-    height: 40px;
-    width: 120px;
-    margin-left: 5px;
-    cursor: pointer;
-    font-family: 'IBM Plex Mono', monospace;
-    transition: all 0.35s ease-in-out;
+  background-color: transparent;
+  border: 1px solid #b10a0a;
+  font-size: 14px;
+  border-radius: 5px;
+  color: white;
+  height: 40px;
+  width: 120px;
+  margin-left: 5px;
+  cursor: pointer;
+  font-family: "IBM Plex Mono", monospace;
+  transition: all 0.35s ease-in-out;
 }
 
 .greet-btn:hover {
-    background-color: #b10a0a2f;
+  background-color: #b10a0a2f;
 }
 
 .aboutMe {
-    padding-top: 200px;
-    margin-left: 150px;
+  padding-left: 15%;
+  padding-right: 25%;
+  padding-top: 15%;
 }
 
 #slash {
-    color: #b10a0a;
+  color: #b10a0a;
 }
 
 .aboutMe h2 {
-    color: white;
-    font-size: 40px;
-    margin-bottom: 40px;
+  color: white;
+  font-size: 40px;
+  margin-bottom: 40px;
 }
 
 .aboutMe h2::after {
-    content: "";
-    display: inline-block;
-    width: 300px;
-    height: 2px;
-    margin: 12px;
-    background: #b10a0a;
-    position: relative;
+  content: "";
+  display: inline-block;
+  width: 300px;
+  height: 2px;
+  margin: 12px;
+  background: #b10a0a;
+  position: relative;
 }
 
 .aboutMe h4 {
-    color: rgba(255, 255, 255, 0.616);
+  color: rgba(255, 255, 255, 0.616);
 }
 
 .aboutMe p {
-    max-width: 460px;
-    font-size: 18px;
-    color: rgba(255, 255, 255, 0.616);
-    margin-bottom: 15px;
+  max-width: 460px;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.616);
+  margin-bottom: 15px;
 }
 
 .tech-stack {
-    margin-top: 15px;
-    color: rgba(255, 255, 255, 0.616);
+  margin-top: 15px;
+  color: rgba(255, 255, 255, 0.616);
 }
 
 .tech-stack ul {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(150px, 10px));
-    list-style: none;
-    padding-left: 0pt;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(150px, 10px));
+  list-style: none;
+  padding-left: 0pt;
 }
 
 .tech-stack li {
-    font-size: 16px;
-    list-style-type: none;
+  font-size: 16px;
+  list-style-type: none;
 }
 
 .tech-stack li::before {
-    content: '▹    ';
-    color: #b10a0a;
+  content: "▹    ";
+  color: #b10a0a;
 }
 
 .myProjects {
-    padding-top: 200px;
-    margin-left: 150px;
+  padding-left: 15%;
+  padding-right: 25%;
+  padding-top: 18%;
 }
 
 .myProjects h2 {
-    color: white;
-    font-size: 40px;
-    margin-bottom: 40px;
+  color: white;
+  font-size: 40px;
+  margin-bottom: 40px;
 }
 
 .myProjects h2::after {
-    content: "";
-    display: inline-block;
-    width: 300px;
-    height: 2px;
-    margin: 12px;
-    background: #b10a0a;
-    position: relative;
+  content: "";
+  display: inline-block;
+  width: 300px;
+  height: 2px;
+  margin: 12px;
+  background: #b10a0a;
+  position: relative;
 }
 
 .contactMe {
-    padding-top: 200px;
-    margin-left: 150px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 18%;
 }
 
 .contactMe h2 {
-    color: white;
-    font-size: 40px;
-    margin-bottom: 18px;
-    text-align: center;
+  color: white;
+  font-size: 40px;
+  margin-bottom: 18px;
 }
 
-.contact-desc {
-    display: flex;
-    justify-content: center;
+.contact-desc p {
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 25px;
+  max-width: 600px;
+  color: rgba(255, 255, 255, 0.616);
 }
 
-.contactMe p {
-    margin-bottom: 25px;
-    max-width: 600px;
-    text-align: center;
-    color: rgba(255, 255, 255, 0.616);
-}
-
-.btn-container {
-    display: flex;
-    justify-content: center;
-}
-
-.emailMe {
-    background-color: transparent;
-    border: 1px solid #b10a0a;
-    font-size: 14px;
-    border-radius: 5px;
-    color: white;
-    height: 40px;
-    width: 120px;
-    margin-left: 5px;
-    cursor: pointer;
-    font-family: 'IBM Plex Mono', monospace;
-    transition: all 0.35s ease-in-out;
+.contact-email {
+  background-color: transparent;
+  border: 1px solid #b10a0a;
+  font-size: 14px;
+  border-radius: 5px;
+  color: white;
+  height: 40px;
+  width: 120px;
+  margin-left: 5px;
+  cursor: pointer;
+  font-family: "IBM Plex Mono", monospace;
+  transition: all 0.35s ease-in-out;
 }
 
 .emailMe:hover {
-    background-color: #b10a0a2f;
+  background-color: #b10a0a2f;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  padding-top: 10%;
+}
+
+.content {
+  font-size: 16px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+}
+
+.social-content {
+  text-decoration: none;
+  transition: all 0.35s ease-in-out;
+  color: rgba(255, 255, 255, 0.616);
+}
+
+.social-content:hover {
+  color: #e81717;
+}
+
+.social-icons .fa {
+  color: rgba(255, 255, 255, 0.616);
+  transition: all 0.35s ease-in-out;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.social-icons .fa:hover {
+  color: #e81717;
 }
 
 /* ::-webkit-scrollbar {
