@@ -344,6 +344,7 @@ body {
   grid-template-columns: repeat(3, minmax(300px, 1fr));
   grid-gap: 15px;
   margin-top: 60px;
+  position: relative;
 }
 
 .card {
