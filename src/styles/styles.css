@@ -88,6 +88,10 @@ body {
   background-color: #b10a0a2f;
 }
 
+.nav-container {
+  display: none;
+}
+
 .myName {
   padding-left: 15%;
   padding-right: 25%;
