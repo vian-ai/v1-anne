@@ -375,10 +375,10 @@ body {
 
 .card h4 {
   padding: 10px 20px;
-  color: #effaffe5;
+  color: #effaffa1;
   font-family: "IBM Plex Mono", monospace;
   font-weight: 200;
-  font-size: 14px;
+  font-size: 13px;
   position: absolute;
   bottom: 15px;
 }
@@ -398,18 +398,18 @@ body {
 }
 
 .fa-folder {
-  font-size: 40px;
+  font-size: 35px;
   color: #b10a0a;
 }
 
 .fa-brands {
-  font-size: 35px;
+  font-size: 30px;
   color: #b10a0a;
   margin-right: 10px;
 }
 
 .fa-external-link {
-  font-size: 30px;
+  font-size: 26px;
   color: #b10a0a;
 }
 
