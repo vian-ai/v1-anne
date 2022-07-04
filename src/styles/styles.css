@@ -291,88 +291,115 @@ body {
 }
 
 .container {
-    padding-left: 10%;
-    padding-right: 25%;
+  padding-left: 10%;
+  padding-right: 25%;
 }
 
 .flex {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(300px, 1fr));
-    grid-gap: 15px;
-    margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(300px, 1fr));
+  grid-gap: 15px;
+  margin-top: 60px;
 }
 
 .card {
-    background-color: #353535;
-    border-radius: 5px;
-    height: 400px;
-    padding: 1.5rem 0 !important;
-    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.288);
-    transition: all 0.35s ease-in-out;
-    position: relative;
+  background-color: #353535;
+  border-radius: 5px;
+  height: 400px;
+  padding: 1.5rem 0 !important;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.288);
+  transition: all 0.35s ease-in-out;
+  position: relative;
 }
 
 .card:hover {
-    transform: translateY(-6px);
+  transform: translateY(-6px);
 }
 
 .card h1 {
-    color: #effaff;
-    font-size: 25px;
-    font-family: "Roboto", sans-serif;
-    padding: 10px 20px;
-    margin-top: 15px;
+  color: #effaff;
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+  padding: 10px 20px;
+  margin-top: 15px;
 }
 
 .card p {
-    padding: 10px 20px;
-    margin-bottom: 25px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 15px;
-    color: #effaffb6;
+  padding: 10px 20px;
+  margin-bottom: 25px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #effaffb6;
 }
 
 .card h4 {
-    padding: 10px 20px;
-    color: #effaffe5;
-    font-family: "IBM Plex Mono", monospace;
-    font-weight: 200;
-    font-size: 14px;
-    position: absolute;
-    bottom: 15px;
+  padding: 10px 20px;
+  color: #effaffe5;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 200;
+  font-size: 14px;
+  position: absolute;
+  bottom: 15px;
 }
 
 .card-icons {
-    padding: 10px 20px;
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: space-between;
-    border-bottom: none !important;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: none !important;
 }
 
 .fa {
-    transition: all 0.35s ease-in-out;
-    cursor: pointer;
+  transition: all 0.35s ease-in-out;
+  cursor: pointer;
 }
 
 .fa-folder {
-    font-size: 40px;
-    color: #b10a0a;
+  font-size: 40px;
+  color: #b10a0a;
 }
 
 .fa-brands {
-    font-size: 35px;
-    color: #b10a0a;
-    margin-right: 10px;
+  font-size: 35px;
+  color: #b10a0a;
+  margin-right: 10px;
 }
 
 .fa-external-link {
-    font-size: 30px;
-    color: #b10a0a;
+  font-size: 30px;
+  color: #b10a0a;
 }
 
 .fa:hover {
-    color: #e81717;
+  color: #e81717;
+}
+
+.reveal {
+  position: relative;
+  opacity: 0;
+  transition: ease-in-out;
+}
+
+.reveal.active {
+  opacity: 1;
+  transition: ease-in-out;
+}
+
+.active.fade-bottom {
+  animation: fade-bottom 1s ease-in-out;
+  animation-delay: 00ms;
+}
+
+@keyframes fade-bottom {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
