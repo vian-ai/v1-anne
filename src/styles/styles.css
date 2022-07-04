@@ -169,6 +169,74 @@ body {
     color: #b10a0a;
 }
 
+.myProjects {
+    padding-top: 200px;
+    margin-left: 150px;
+}
+
+.myProjects h2 {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.myProjects h2::after {
+    content: "";
+    display: inline-block;
+    width: 300px;
+    height: 2px;
+    margin: 12px;
+    background: #b10a0a;
+    position: relative;
+}
+
+.contactMe {
+    padding-top: 200px;
+    margin-left: 150px;
+}
+
+.contactMe h2 {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 18px;
+    text-align: center;
+}
+
+.contact-desc {
+    display: flex;
+    justify-content: center;
+}
+
+.contactMe p {
+    margin-bottom: 25px;
+    max-width: 600px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.616);
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.emailMe {
+    background-color: transparent;
+    border: 1px solid #b10a0a;
+    font-size: 14px;
+    border-radius: 5px;
+    color: white;
+    height: 40px;
+    width: 120px;
+    margin-left: 5px;
+    cursor: pointer;
+    font-family: 'IBM Plex Mono', monospace;
+    transition: all 0.35s ease-in-out;
+}
+
+.emailMe:hover {
+    background-color: #b10a0a2f;
+}
+
 /* ::-webkit-scrollbar {
     background: rgba(255, 255, 255, 0);
 }
