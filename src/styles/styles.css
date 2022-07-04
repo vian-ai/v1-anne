@@ -309,6 +309,7 @@ body {
     padding: 1.5rem 0 !important;
     box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.288);
     transition: all 0.35s ease-in-out;
+    position: relative;
 }
 
 .card:hover {
@@ -339,7 +340,7 @@ body {
     font-weight: 200;
     font-size: 14px;
     position: absolute;
-    bottom: 45px;
+    bottom: 15px;
 }
 
 .card-icons {
