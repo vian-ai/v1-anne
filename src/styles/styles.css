@@ -2,10 +2,116 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
 }
 
-::-webkit-scrollbar {
+body {
+    background-color: #262626;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #262626;
+    height: 80px;
+    padding: 22px;
+    width: 100%;
+    position: fixed;
+}
+
+.logo {
+    margin-left: 2rem;
+    width: 55px;
+}
+
+.nav-menu {
+    display: flex;
+    margin: 25px;
+    list-style-type: none;
+    margin-right: 2rem;
+}
+
+.nav-link {
+    display: flex;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'IBM Plex Mono', monospace;
+    color: #b10a0a;
+    padding: 10px;
+    margin: 0 1rem;
+    transition: all 0.35s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #e81717;
+}
+
+.nav-button {
+    background-color: transparent;
+    border: 1px solid #b10a0a;
+    font-size: 14px;
+    border-radius: 5px;
+    color: white;
+    height: 40px;
+    width: 90px;
+    margin-left: 5px;
+    cursor: pointer;
+    font-family: 'IBM Plex Mono', monospace;
+    transition: all 0.35s ease-in-out;
+}
+
+.nav-button:hover {
+    background-color: #b10a0a2f;
+}
+
+.myName {
+    padding-top: 200px;
+    margin-left: 150px;
+}
+
+.myName h1 {
+    font-size: 20px;
+    color: #b10a0a;
+}
+
+.myName h2 {
+    font-size: 100px;
+    color: white;
+}
+
+.myName h3 {
+    font-size: 50px;
+    color: rgba(255, 255, 255, 0.616);
+    margin-bottom: 25px;
+}
+
+.myName p {
+    max-width: 460px;
+    margin-bottom: 25px;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.616);
+}
+
+.greet-btn {
+    background-color: transparent;
+    border: 1px solid #b10a0a;
+    font-size: 14px;
+    border-radius: 5px;
+    color: white;
+    height: 40px;
+    width: 120px;
+    margin-left: 5px;
+    cursor: pointer;
+    font-family: 'IBM Plex Mono', monospace;
+    transition: all 0.35s ease-in-out;
+}
+
+.greet-btn:hover {
+    background-color: #b10a0a2f;
+}
+
+/* ::-webkit-scrollbar {
     background: rgba(255, 255, 255, 0);
 }
 
@@ -274,4 +380,4 @@ footer {
     100% {
         opacity: 1;
      }
-}
+} */
