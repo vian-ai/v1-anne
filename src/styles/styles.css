@@ -190,7 +190,7 @@ body {
 .myProjects {
   padding-left: 15%;
   padding-right: 25%;
-  padding-top: 18%;
+  padding-top: 10%;
 }
 
 .myProjects h2 {
@@ -305,7 +305,7 @@ body {
 .card {
     background-color: #353535;
     border-radius: 5px;
-    height: 350px;
+    height: 400px;
     padding: 1.5rem 0 !important;
     box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.288);
     transition: all 0.35s ease-in-out;
