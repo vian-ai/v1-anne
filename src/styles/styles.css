@@ -221,13 +221,16 @@ body {
 }
 
 .tech-stack li {
-  font-size: 15px;
+  font-size: 14px;
+  font-weight: 100;
   list-style-type: none;
   font-family: "IBM Plex Mono", monospace;
+  margin: 2px;
 }
 
 .tech-stack li::before {
-  content: "▹    ";
+  content: "▹ ";
+  font-size: 22px;
   color: #b10a0a;
 }
 
@@ -252,6 +255,15 @@ body {
   margin: 12px;
   background: #b10a0a;
   position: relative;
+}
+
+.myProjects p {
+  max-width: 500px;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.616);
+  margin-bottom: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
 }
 
 .contactMe {
@@ -303,6 +315,7 @@ body {
 }
 
 .content {
+  position: absolute;
   font-size: 14px;
   font-family: "IBM Plex Mono", monospace;
 }
