@@ -1,10 +1,35 @@
 @media (max-width: 980px) {
+  .nav-menu {
+    position: fixed;
+    right: -60%;
+    top: 0;
+    height: 100vh;
+    width: 400px;
+    flex-direction: column;
+    background-color: #1b1b1b;
+    text-align: center;
+    display: block;
+    transition: all 0.5s ease-in-out;
+  }
+
   .nav-link {
-    display: none;
+    display: flex;
+    justify-content: center;
+    font-weight: 100;
+    font-size: 20px;
+    margin-top: 50px;
   }
 
   .nav-button {
-    display: none;
+    height: 50px;
+    width: 120px;
+    font-size: 20px;
+    margin-top: 40px;
+  }
+
+  .nav-menu.active {
+    right: 0;
+    box-shadow: 0 11px 18px 0 rgba(0, 0, 0, 0.432);
   }
 
   .nav-container {
@@ -41,7 +66,7 @@
     display: block;
     height: 3px;
     border-radius: 10px;
-    background: white;
+    background: #b10a0a;
     transition: all 0.35s ease-in-out;
   }
 
@@ -106,12 +131,22 @@
   }
 
   .flex {
-      grid-template-columns: repeat(2, minmax(250px, 1fr));
+    grid-template-columns: repeat(2, minmax(250px, 1fr));
+  }
+
+  .blur-content {
+    -webkit-transition: all 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out;
+    -webkit-filter: blur(1px);
+    filter: blur(1px);
+    -webkit-filter: url(#blur);
+    filter: url(#blur);
+    filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius='10');
   }
 }
 
 @media (max-width: 1080px) {
-    .flex {
-      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    }
+  .flex {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   }
+}

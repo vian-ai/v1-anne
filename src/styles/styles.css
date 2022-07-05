@@ -37,9 +37,9 @@ body {
 
 .nav-menu {
   display: flex;
-  margin: 25px;
+  /* margin: 25px; */
   list-style-type: none;
-  margin-right: 2rem;
+  /* margin-right: 2rem; */
 }
 
 .nav-link {
@@ -48,7 +48,7 @@ body {
   text-decoration: none;
   font-weight: 600;
   font-family: "IBM Plex Mono", monospace;
-  color: #b10a0a;
+  color: white;
   padding: 10px;
   margin: 0 1rem;
   transition: all 0.35s ease-in-out;
@@ -58,6 +58,10 @@ body {
   animation-timing-function: ease-in;
   animation-delay: 300ms;
   animation-fill-mode: forwards;
+}
+
+.nav-container {
+  display: none;
 }
 
 .nav-link:hover {
@@ -86,10 +90,6 @@ body {
 
 .nav-button:hover {
   background-color: #b10a0a2f;
-}
-
-.nav-container {
-  display: none;
 }
 
 .myName {
