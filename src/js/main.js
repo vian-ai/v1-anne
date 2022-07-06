@@ -12,15 +12,15 @@ function hyperLinks() {
     });
 
     $('#github-p1').click(function () {
-        window.open('');
+        window.open('https://github.com/vian-ai/v1-anne');
     });
 
     $('#github-p2').click(function () {
-        window.open('');
+        window.open('https://github.com/vian-ai/Pocket-ACNH');
     });
 
     $('#github-p3').click(function () {
-        window.open('');
+        window.open('https://github.com/vian-ai/v1-ArtLabs');
     });
 
     $('#p1-link').click(function () {
@@ -32,7 +32,7 @@ function hyperLinks() {
     });
 
     $('#p3-link').click(function () {
-        window.open('');
+        window.open('https://vian-ai.github.io/v1-ArtLabs/');
     });
 
     $('#linkedIn-icon').click(function () {
