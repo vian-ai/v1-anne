@@ -134,7 +134,7 @@ body {
   text-align: left;
   max-width: 460px;
   margin-bottom: 25px;
-  font-size: 16px;
+  font-size: 22px;
   color: rgba(255, 255, 255, 0.616);
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -201,7 +201,7 @@ body {
 
 .aboutMe p {
   max-width: 460px;
-  font-size: 18px;
+  font-size: 16px;
   color: rgba(255, 255, 255, 0.616);
   margin-bottom: 15px;
   font-family: "Roboto", sans-serif;
