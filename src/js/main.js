@@ -28,7 +28,7 @@ function hyperLinks() {
     });
 
     $('#p2-link').click(function () {
-        window.open('');
+        window.open('https://vian-ai.github.io/Pocket-ACNH/');
     });
 
     $('#p3-link').click(function () {
