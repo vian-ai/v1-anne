@@ -44,14 +44,28 @@
     font-size: 14px;
   }
 
+  .aboutMe h2::after {
+    display: none;
+  }
+
+  .myProjects h2::after {
+    display: none;
+  }
+}
+
+@media (max-width: 1080px) {
+  .flex {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+}
+
+@media (max-width: 950px) {
   .nav-menu {
     position: fixed;
     right: -100%;
-    /* top: 0; */
     top: 0;
     height: 100vh;
-    width: calc(100% - 60px) !important;
-    /*width:calc(100% - 60px) !important*/
+    width: calc(80% - 60px) !important;
     flex-direction: column;
     background-color: #1b1b1b;
     text-align: center;
@@ -131,23 +145,23 @@
     transition: transform 0.4s ease-in-out;
   }
 
-  .nav-container input[type="checkbox"]:checked ~ .menu-items {
+  .nav-container input[type="checkbox"]:checked~.menu-items {
     transform: translateX(0);
   }
 
-  .nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
+  .nav-container input[type="checkbox"]:checked~.hamburger-lines .line1 {
     transform: rotate(45deg);
   }
 
-  .nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
+  .nav-container input[type="checkbox"]:checked~.hamburger-lines .line2 {
     transform: scaleY(0);
   }
 
-  .nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
+  .nav-container input[type="checkbox"]:checked~.hamburger-lines .line3 {
     transform: rotate(-45deg);
   }
 
-  .nav-container input[type="checkbox"]:checked ~ .logo {
+  .nav-container input[type="checkbox"]:checked~.logo {
     display: none;
   }
 
@@ -159,20 +173,6 @@
     -webkit-filter: url(#blur);
     filter: url(#blur);
     filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius='10');
-  }
-
-  .aboutMe h2::after {
-    display: none;
-  }
-
-  .myProjects h2::after {
-    display: none;
-  }
-}
-
-@media (max-width: 1080px) {
-  .flex {
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   }
 }
 
