@@ -1,3 +1,29 @@
+@media (max-width: 480px) {
+  .myName {
+    padding-left: 10%;
+    padding-right: 15%;
+    padding-top: 30%;
+    min-height: 100vh;
+  }
+
+  .myName h1 {
+    font-size: 16px;
+  }
+
+  .myName h2 {
+    font-size: 80px;
+  }
+
+  .myName h3 {
+    font-size: 35px;
+  }
+
+  .myName p {
+    max-width: 500px;
+    font-size: 15px;
+  }
+}
+
 /* @media (max-width: 980px) {
   .nav-menu {
     position: fixed;

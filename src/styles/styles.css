@@ -110,12 +110,13 @@ body {
   padding-left: 15%;
   padding-right: 25%;
   padding-top: 10%;
+  min-height: 100vh;
 }
 
 .myName h1 {
   font-size: 20px;
   color: #b10a0a;
-  font-family: "IBM Plex Mono", monospace;
+  font-family: 'Roboto Mono', monospace;
   animation: article-load 300ms ease-in var(--article-load-delay);
   animation-fill-mode: forwards;
   transform: translateY(-20px);
@@ -125,7 +126,7 @@ body {
 .myName h2 {
   font-size: 100px;
   color: white;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   animation: article-load 300ms ease-in calc(var(--article-load-delay) + 200ms);
   animation-fill-mode: forwards;
   transform: translateY(-20px);
@@ -136,7 +137,7 @@ body {
   font-size: 50px;
   color: rgba(255, 255, 255, 0.616);
   margin-bottom: 25px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   animation: article-load 300ms ease-in calc(var(--article-load-delay) + 300ms);
   animation-fill-mode: forwards;
   transform: translateY(-20px);
@@ -150,7 +151,7 @@ body {
   margin-bottom: 25px;
   font-size: 18px;
   color: rgba(255, 255, 255, 0.616);
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   animation: article-load 300ms ease-in calc(var(--article-load-delay) + 400ms);
   animation-fill-mode: forwards;
@@ -168,7 +169,7 @@ body {
   width: 120px;
   margin-left: 5px;
   cursor: pointer;
-  font-family: "IBM Plex Mono", monospace;
+  font-family: 'Roboto Mono', monospace;
   transition: all 0.35s ease-in-out;
   animation: article-load 300ms ease-in calc(var(--article-load-delay) + 500ms);
   animation-fill-mode: forwards;
