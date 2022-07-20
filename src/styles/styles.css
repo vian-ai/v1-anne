@@ -9,6 +9,20 @@ body {
   --article-load-delay: calc(500ms + 300ms);
 }
 
+::-webkit-scrollbar {
+  width: 13px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #262626;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.227);
+  border: 3px solid #262626;
+  border-radius: 10px;
+}
+
 .nav-bar {
   display: flex;
   justify-content: space-between;

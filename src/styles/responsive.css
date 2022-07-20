@@ -1,4 +1,4 @@
-@media (max-width: 980px) {
+/* @media (max-width: 980px) {
   .nav-menu {
     position: fixed;
     right: -60%;
@@ -149,4 +149,4 @@
   .flex {
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   }
-}
+} */
