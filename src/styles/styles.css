@@ -61,7 +61,7 @@ body {
   font-size: 14px;
   text-decoration: none;
   font-weight: 600;
-  font-family: "IBM Plex Mono", monospace;
+  font-family: 'Roboto Mono', monospace;
   color: white;
   padding: 10px;
   margin: 0 1rem;
@@ -239,7 +239,7 @@ body {
   font-size: 14px;
   font-weight: 100;
   list-style-type: none;
-  font-family: "IBM Plex Mono", monospace;
+  font-family: 'Roboto Mono', monospace;
   margin: 2px;
 }
 
@@ -315,7 +315,7 @@ body {
   width: 130px;
   margin-left: 5px;
   cursor: pointer;
-  font-family: "IBM Plex Mono", monospace;
+  font-family: 'Roboto Mono', monospace;
   transition: all 0.35s ease-in-out;
 }
 
@@ -332,7 +332,7 @@ body {
 .content {
   position: absolute;
   font-size: 14px;
-  font-family: "IBM Plex Mono", monospace;
+  font-family: 'Roboto Mono', monospace;
 }
 
 .social-icons {
@@ -409,7 +409,7 @@ body {
 .card h4 {
   padding: 10px 20px;
   color: #effaffa1;
-  font-family: "IBM Plex Mono", monospace;
+  font-family: 'Roboto Mono', monospace;
   font-weight: 200;
   font-size: 13px;
   position: absolute;
