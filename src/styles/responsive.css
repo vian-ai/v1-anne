@@ -1,3 +1,21 @@
+@media (max-width: 770px) {
+  .myName {
+    padding-top: 26%;
+  }
+
+  .myName p {
+    font-size: 16px;
+  }
+
+  .aboutMe h2::after {
+    width: 220px;
+  }
+
+  .myProjects h2::after {
+    width: 220px;
+  }
+}
+
 @media (max-width: 480px) {
   .myName {
     padding-left: 10%;
@@ -141,6 +159,14 @@
     -webkit-filter: url(#blur);
     filter: url(#blur);
     filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius='10');
+  }
+
+  .aboutMe h2::after {
+    display: none;
+  }
+
+  .myProjects h2::after {
+    display: none;
   }
 }
 
